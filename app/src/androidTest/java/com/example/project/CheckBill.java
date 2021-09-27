@@ -16,7 +16,7 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
-//Card Details Test by IT19148014
+//Card Details Test 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class CheckBill {
