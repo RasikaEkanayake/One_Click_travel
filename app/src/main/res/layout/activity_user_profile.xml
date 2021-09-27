@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".UserProfile"
+    android:background="@drawable/proback"
     android:orientation="vertical">
 
     <include layout="@layout/toolbar" />
@@ -24,7 +25,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="0dp"
             android:layout_marginTop="10dp"
             android:background="@color/colorAccent" />
 
@@ -35,7 +36,7 @@
         android:id="@+id/USERnAME"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
@@ -60,20 +61,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="chalana"
+            android:text="Loading ..."
             android:textColor="@color/blackcolor"
             android:textSize="18dp" />
 
 
     </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:background="@color/Silvercolor"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
 
     <LinearLayout
         android:id="@+id/userEmail"
@@ -105,7 +98,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginLeft="15dp"
-            android:text="chalana@gmail.com"
+            android:text="Loading ..."
             android:textColor="@color/blackcolor"
             android:textSize="18dp" />
 
@@ -114,7 +107,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0.5dp"
+        android:layout_height="0dp"
         android:background="@color/Silvercolor"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
@@ -148,20 +141,12 @@
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_marginLeft="5dp"
-            android:text="Meegoda"
+            android:text="Loading ..."
             android:textColor="@color/blackcolor"
             android:textSize="18dp" />
 
 
     </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:background="@color/Silvercolor"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -191,7 +176,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="077*******"
+            android:text="Loading ..."
             android:textColor="@color/blackcolor"
             android:textSize="18dp" />
 
@@ -200,7 +185,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0.5dp"
+        android:layout_height="0dp"
         android:background="@color/Silvercolor"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
@@ -213,7 +198,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="100dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -223,12 +208,12 @@
                 android:layout_height="39dp"
                 android:layout_marginLeft="-10dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/textbtn"
+                android:background="@drawable/calculateexpense_btn"
                 android:drawableLeft="@drawable/ic_baseline_edit_24"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:text="Edit Profile"
-                android:textColor="@color/blue1"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
 
@@ -238,12 +223,12 @@
                 android:layout_height="41dp"
                 android:layout_marginLeft="-10dp"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/textbtn"
+                android:background="@drawable/btndel"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:text="Change password"
-                android:textColor="@color/blue1"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
             <TextView
@@ -252,12 +237,12 @@
                 android:layout_height="41dp"
                 android:layout_marginLeft="-10dp"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/textbtn"
+                android:background="@drawable/btnredd"
                 android:drawableLeft="@drawable/ic_baseline_delete_24"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:text="Delete Account"
-                android:textColor="@color/blue1"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
             <TextView
@@ -266,11 +251,12 @@
                 android:layout_height="41dp"
                 android:layout_marginLeft="-10dp"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/textbtn"
+                android:layout_marginBottom="200dp"
+                android:background="@drawable/calculateexpense_btn"
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:text="Home"
-                android:textColor="@color/blue1"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
 
