@@ -21,7 +21,7 @@ import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.is;
 
 
-//TestCase Scenario - UI Test IT19158228
+//TestCase Scenario - UI Test
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class AddHotelRoomTest {
