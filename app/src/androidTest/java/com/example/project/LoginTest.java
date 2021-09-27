@@ -22,7 +22,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
 
-//Login Test by IT19151434
+//Login Test  
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class LoginTest {
