@@ -8,7 +8,7 @@ import androidx.test.espresso.Root;
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
 
-//UI Test - Created - IT19158228
+//UI Test - Created 
 public class ToastMatcher extends TypeSafeMatcher<Root> {
 
     @Override
