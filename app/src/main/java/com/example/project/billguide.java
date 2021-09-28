@@ -107,7 +107,7 @@ public class billguide extends AppCompatActivity {
         });
     }
 
-    //Calculate Total price
+    //calculate Total price
     public double calcPrice(double price,int qty){
         return price * qty;
     }
