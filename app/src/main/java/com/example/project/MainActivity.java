@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity
 
         FirebaseRecyclerOptions<model> options =
                 new FirebaseRecyclerOptions.Builder<model>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("students"), model.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Guids"), model.class)
                         .build();
 
         adapter=new myadapter(options);
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
     {
         FirebaseRecyclerOptions<model> options =
                 new FirebaseRecyclerOptions.Builder<model>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("students").orderByChild("name").startAt(s).endAt(s+"\uf8ff"), model.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Guids").orderByChild("name").startAt(s).endAt(s+"\uf8ff"), model.class)
                         .build();
 
         adapter=new myadapter(options);

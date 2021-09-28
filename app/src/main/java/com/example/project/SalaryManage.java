@@ -1,5 +1,6 @@
 package com.example.project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -11,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SalaryManage extends AppCompatActivity {
 
     EditText gid,bSal,bRate,NOT,totSal;
-    Button btn;
+    Button btn,btn2;
     double totsal;
 
     @Override
@@ -20,6 +21,7 @@ public class SalaryManage extends AppCompatActivity {
         setContentView(R.layout.activity_salary_manage);
 
         btn = findViewById(R.id.salCalBut);
+        btn2 = findViewById(R.id.checkSal);
 
         gid = (EditText) findViewById(R.id.salRegNo);
         bSal = (EditText) findViewById(R.id.salBasSal);
@@ -35,6 +37,14 @@ public class SalaryManage extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(SalaryManage.this,adminpage.class);
+                startActivity(intent2);
+            }
+        });
 
         btn.setOnClickListener(new View.OnClickListener() {
 

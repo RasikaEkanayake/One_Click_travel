@@ -68,7 +68,6 @@ public class Bill extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 totprice = calcPrice(Double.valueOf(price),Integer.valueOf(edt1.getText().toString()));
                 txt4.setText(String.valueOf(totprice));
             }

@@ -3,24 +3,55 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD Final/app/src/main/res/drawable-xhdpi/ic_baseline_delete_24.xml" value="0.23854166666666668" />
+        <entry key="..\:/MAD Final/app/src/main/res/drawable-xhdpi/ic_baseline_edit_24.xml" value="0.23854166666666668" />
+        <entry key="..\:/MAD Final/app/src/main/res/drawable-xhdpi/ic_baseline_phone_24.xml" value="0.23854166666666668" />
+        <entry key="..\:/MAD Final/app/src/main/res/drawable/btnbook.xml" value="0.23854166666666668" />
+        <entry key="..\:/MAD Final/app/src/main/res/drawable/btnproceed.xml" value="0.23854166666666668" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/.xml" value="0.24871794871794872" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/aclonica.xml" value="0.24871794871794872" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/alegreya_sans_sc_medium.xml" value="0.24871794871794872" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/alfa_slab_one.xml" value="0.24871794871794872" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/archivo_black.xml" value="0.24871794871794872" />
+        <entry key="..\:/MAD Final/app/src/main/res/font/brawler.xml" value="0.24871794871794872" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_add_hotel_room.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_adddata.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_adminpage.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_billguide.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_card_ret.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_change_user_password.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_edit_rooms.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_email_ret.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_expense.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_guide_home.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_income.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_login_.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_main_homepage.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_main_page.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_mainlogin.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_manage_rooms.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_retrieveguides.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_retrieverooms.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_salary_manage.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/activity_update_profile.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_user_forget_password.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_user_profile.xml" value="0.264" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_view_rooms.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/activity_web_view.xml" value="0.22239583333333332" />
-        <entry key="..\:/MAD Final/app/src/main/res/layout/bill.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/bill.xml" value="0.264" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/card_pay.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/dialogcontent.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/guide_info.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/payment.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/payment_info.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/layout/paypal_pay.xml" value="0.4" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/room_info.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/singlerow.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/toolbar.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/updatetoolbar.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/layout/userchangepassword.xml" value="0.22239583333333332" />
+        <entry key="..\:/MAD Final/app/src/main/res/menu/searchmenu.xml" value="0.22239583333333332" />
         <entry key="..\:/MAD Final/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23487179487179488" />
         <entry key="..\:/MAD/One Click Travel/app/src/main/res/drawable-v24/btn.xml" value="0.9541666666666667" />
         <entry key="..\:/MAD/One Click Travel/app/src/main/res/drawable-v24/button.xml" value="0.23854166666666668" />

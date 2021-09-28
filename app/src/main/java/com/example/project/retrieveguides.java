@@ -29,7 +29,7 @@ public class retrieveguides extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
 
-        Query query = FirebaseDatabase.getInstance().getReference().child("students");
+        Query query = FirebaseDatabase.getInstance().getReference().child("Guids");
         FirebaseListOptions<model> options = new FirebaseListOptions.Builder<model>()
                 .setLayout(R.layout.guide_info)
                 .setLifecycleOwner(retrieveguides.this)

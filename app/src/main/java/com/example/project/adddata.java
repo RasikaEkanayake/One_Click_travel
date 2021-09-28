@@ -63,7 +63,7 @@ public class adddata extends AppCompatActivity {
         });
 
         //Newly Added
-        dbref = FirebaseDatabase.getInstance().getReference().child("students");
+        dbref = FirebaseDatabase.getInstance().getReference().child("Guids");
         dbref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -72,7 +72,6 @@ public class adddata extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
             }
         });
     }
